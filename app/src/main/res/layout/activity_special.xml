@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <include layout="@layout/view_title_right_img"/>
+    <com.ybao.pullrefreshview.layout.RGPullRefreshLayout
+        android:id="@+id/special_pull_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<!--        <com.aero.droid.dutyfree.talent.widgets.ExpandFooterView
+            android:id="@+id/special_footer_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></com.aero.droid.dutyfree.talent.widgets.ExpandFooterView>
+        <com.aero.droid.dutyfree.talent.widgets.ExpandHeaderView
+            android:id="@+id/special_header_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></com.aero.droid.dutyfree.talent.widgets.ExpandHeaderView>-->
+        <com.ybao.pullrefreshview.view.PullableScrollView
+            android:id="@+id/special_pull_scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:minHeight="70dp">
+
+                    <ImageView
+                        android:id="@+id/special_title_img"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:src="@mipmap/square_normal_img"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/special_title_img"
+                        android:gravity="center_vertical"
+                        android:minHeight="40dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/specila_title_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:text="漂洋过海来看你"
+                            android:textStyle="bold"
+                            android:textSize="14sp" />
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@color/gray_line"/>
+                        <TextView
+                            android:id="@+id/specila_title_desc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:text="欧美轻奢品低价购"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                </RelativeLayout>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@color/gray_line"/>
+
+                <com.aero.droid.dutyfree.talent.widgets.GridViewForScrollView
+                    android:id="@+id/special_gv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/white"
+                    android:numColumns="2"
+                    android:verticalSpacing="10dp"
+                    android:horizontalSpacing="10dp"
+                    android:listSelector="@drawable/listview_background_selector"></com.aero.droid.dutyfree.talent.widgets.GridViewForScrollView>
+            </LinearLayout>
+        </com.ybao.pullrefreshview.view.PullableScrollView>
+    </com.ybao.pullrefreshview.layout.RGPullRefreshLayout>
+
+</LinearLayout>

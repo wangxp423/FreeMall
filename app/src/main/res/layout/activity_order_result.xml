@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_title_right_tv" />
+
+    <com.ybao.pullrefreshview.layout.RGPullRefreshLayout
+        android:id="@+id/order_result_pull_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.ybao.pullrefreshview.view.PullableScrollView
+            android:id="@+id/order_result_scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/purple"
+                    android:gravity="center"
+                    android:minHeight="100dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="20dp"
+                        android:drawableTop="@mipmap/order_result_normal"
+                        android:text="@string/order_result_success"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/order_result_goods"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"></LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/gray_line" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:minHeight="35dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_toLeftOf="@+id/order_reuslt_total"
+                        android:text="@string/order_result_total"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/order_reuslt_total"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="15dp"
+                        android:text="＄1394"
+                        android:textColor="@color/black_text"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:minHeight="35dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_toLeftOf="@+id/order_reuslt_coupons"
+                        android:text="@string/order_result_coupons"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/order_reuslt_coupons"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="15dp"
+                        android:text="＄1394"
+                        android:textColor="@color/black_text"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:minHeight="35dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_toLeftOf="@+id/order_reuslt_all"
+                        android:text="@string/order_result_all"
+                        android:textColor="@color/black"
+                        android:layout_centerVertical="true"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/order_reuslt_all"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="15dp"
+                        android:text="＄1394"
+                        android:textColor="@color/black_text"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:minHeight="45dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/order_result_to_home"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:padding="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radius_solid_purple"
+                        android:gravity="center"
+                        android:text="@string/order_result_to_home"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+                    <TextView
+                        android:id="@+id/order_result_to_orderdetail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:padding="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/radius_solid_purple"
+                        android:gravity="center"
+                        android:text="@string/order_result_to_orderdetail"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </com.ybao.pullrefreshview.view.PullableScrollView>
+    </com.ybao.pullrefreshview.layout.RGPullRefreshLayout>
+
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/item_msgcenter_msg_layout"
+        android:background="@drawable/listview_background_selector"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="46dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp">
+
+            <ImageView
+                android:id="@+id/item_msgcenter_title_img"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/msgcenter_app" />
+
+            <Button
+                android:id="@+id/item_msgcenter_msg_num"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="4dp"
+                android:background="@mipmap/msgcenter_num_bg"
+                android:gravity="center"
+                android:text="1"
+                android:textColor="@color/white"
+                android:textSize="8sp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+
+                <TextView
+                    android:id="@+id/item_msgcenter_msg_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="官方公告"
+                    android:textColor="@color/gray_text"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/item_msgcenter_msg_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/gray_text"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="29dp">
+
+                <TextView
+                    android:id="@+id/item_msgcenter_msg_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="新版本发布，快来下载！"
+                    android:textColor="@color/black"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+            <ImageView
+                android:id="@+id/item_msgcenter_msg_line"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_line"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/discount_bg"
+    android:orientation="vertical">
+        <RelativeLayout
+            android:id="@+id/title_layout"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+            <RelativeLayout
+                android:id="@+id/title_left_layout"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true">
+                <ImageView android:id="@+id/title_left_img"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/title_back_selector"
+                    android:scaleType="center"/>
+            </RelativeLayout>
+
+
+            <TextView android:id="@+id/title_content"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@mipmap/task_layout_title"
+                android:textSize="18sp"
+                android:textColor="@color/black"/>
+            <RelativeLayout
+                android:id="@+id/title_right_layout"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true">
+                <TextView android:id="@+id/title_right_tv"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="@string/task_introduce"
+                    android:textSize="14sp"/>
+            </RelativeLayout>
+        </RelativeLayout>
+        <com.ybao.pullrefreshview.layout.RGPullRefreshLayout
+            android:id="@+id/my_task_pull_layout"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.ybao.pullrefreshview.view.PullableListView
+                android:id="@+id/my_task_listview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:listSelector="@color/white"
+                android:divider="@null"
+                android:dividerHeight="15dp">
+            </com.ybao.pullrefreshview.view.PullableListView>
+        </com.ybao.pullrefreshview.layout.RGPullRefreshLayout>
+    <RelativeLayout
+        android:id="@+id/my_task_introduce"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/btn_pressed_selector"
+            android:layout_centerInParent="true"
+            android:layout_height="40dp" />
+        <TextView
+            android:id="@+id/my_task_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:drawableRight="@mipmap/arrow_right_white"
+            android:drawablePadding="5dp"
+            android:textColor="@color/white"
+            android:text="@string/task_to_discount"/>
+    </RelativeLayout>
+</LinearLayout>

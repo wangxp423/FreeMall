@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg"
+    android:orientation="vertical">
+
+    <com.ybao.pullrefreshview.layout.RGPullRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.aero.droid.dutyfree.talent.widgets.menulistview.SwipeMenuListView
+            android:id="@+id/fm_my_coupons_lv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:dividerHeight="10dp"
+            android:divider="@color/gray_bg"
+            android:headerDividersEnabled="true"
+            android:listSelector="@drawable/listview_background_selector"
+            android:scrollbars="none"></com.aero.droid.dutyfree.talent.widgets.menulistview.SwipeMenuListView>
+        <ImageView
+            android:id="@+id/fm_my_coupons_no_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:src="@mipmap/coupon_no_data"/>
+    </com.ybao.pullrefreshview.layout.RGPullRefreshLayout>
+
+</LinearLayout>

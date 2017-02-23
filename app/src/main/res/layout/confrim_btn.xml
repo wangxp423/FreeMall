@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/confrim_layout"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:gravity="center"
+    android:background="@drawable/radius_solid_purple"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/confrim_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/task_done"
+        android:text="@string/set_passwrod_done"
+        android:textColor="@color/white"
+        android:drawablePadding="10dp"
+        android:textSize="18sp"/>
+
+</LinearLayout>

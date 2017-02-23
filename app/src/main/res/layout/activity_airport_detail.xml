@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <include layout="@layout/view_title_right_tv" />
+
+    <LinearLayout
+        android:id="@+id/airport_detail_layout"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@mipmap/airport_detail_bg"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="40dp">
+
+            <TextView
+                android:id="@+id/airport_detail_airport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="中国国际航空"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/airport_detail_airport_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:text="CA1515"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="20dp"
+            android:minHeight="100dp">
+
+            <TextView
+                android:id="@+id/airport_detail_start_city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="5dp"
+                android:padding="5dp"
+                android:text="北京"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/airport_detail_start_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/airport_detail_start_city"
+                android:layout_marginLeft="10dp"
+                android:text="10:15"
+                android:textColor="@color/white"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/airport_detail_start_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/airport_detail_start_time"
+                android:layout_marginLeft="5dp"
+                android:padding="5dp"
+                android:text="04/02周一"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawablePadding="10dp"
+                android:drawableTop="@mipmap/airport_plane_white"
+                android:gravity="center"
+                android:text="@string/plan"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/airport_detail_end_city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"
+                android:padding="5dp"
+                android:text="美国纽约"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/airport_detail_end_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/airport_detail_end_city"
+                android:layout_marginRight="10dp"
+                android:text="21:40"
+                android:textColor="@color/white"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/airport_detail_end_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/airport_detail_end_time"
+                android:layout_marginRight="5dp"
+                android:padding="5dp"
+                android:text="04/03周二"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <include layout="@layout/confrim_btn"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+
+</LinearLayout>

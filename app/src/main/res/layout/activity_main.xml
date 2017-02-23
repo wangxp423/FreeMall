@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/main_content_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/main_menu_layout"
+        android:orientation="vertical"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/main_menu_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_line" />
+
+        <!--<RadioGroup
+            android:id="@+id/main_radio_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp">-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp">
+
+            <RadioButton
+                android:id="@+id/main_menu_handpick"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:checked="true"
+                android:drawableTop="@drawable/menu_handpick_selector"
+                android:gravity="center"
+                android:text="@string/menu_handpick"
+                android:textColor="@color/menu_text_seletor"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/main_menu_category"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/menu_category_selector"
+                android:gravity="center"
+                android:text="@string/menu_category"
+                android:textColor="@color/menu_text_seletor"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/main_menu_home"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/menu_me_selector"
+                android:gravity="center"
+                android:textSize="0sp"
+                android:visibility="gone" />
+
+            <RadioButton
+                android:id="@+id/main_menu_shopbag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/menu_shopbag_selector"
+                android:gravity="center"
+                android:text="@string/menu_shopbag"
+                android:textColor="@color/menu_text_seletor"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/main_menu_my"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:checked="false"
+                android:drawableTop="@drawable/menu_me_selector"
+                android:gravity="center"
+                android:text="@string/menu_my"
+                android:textColor="@color/menu_text_seletor"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+
+        <!--</RadioGroup>-->
+
+    </LinearLayout>
+
+</RelativeLayout>

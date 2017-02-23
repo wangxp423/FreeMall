@@ -1,0 +1,100 @@
+{
+    "JSON": {
+        "code": "0",
+        "message": "",
+        "goodsDetail": {
+            "goodsImgs": [
+                {
+                    "img": "http://img5.imgtn.bdimg.com/it/u=897258461,3010464840&fm=21&gp=0.jpg"
+                },{
+                    "img": "http://img3.imgtn.bdimg.com/it/u=2881516881,2107790662&fm=21&gp=0.jpg"
+                },{
+                    "img": "http://img3.imgtn.bdimg.com/it/u=2091999787,967767218&fm=21&gp=0.jpg"
+                },{
+                    "img": "http://img4.imgtn.bdimg.com/it/u=204035751,819602623&fm=21&gp=0.jpg"
+                },{
+                    "img": "http://img1.imgtn.bdimg.com/it/u=2605212278,644523299&fm=21&gp=0.jpg"
+                }
+            ],
+            "id": "商品Id",
+            "status": "0",
+            "markId": "品牌ID",
+            "markName": "SK-II",
+            "markLogo": "品牌Logo",
+            "markDes": "创始人 Coco Channel 原名 Gabrielle Bonheur Channel 中文名：加布里埃'可可’香奈儿。创始人 Coco Channel 原名 Gabrielle Bonheur Channel 中文名：加布里埃'可可’香奈儿。创始人 Coco Channel 原名 Gabrielle Bonheur Channel 中文名：加布里埃'可可’香奈儿。",
+            "goodsDes": "从自然到明亮色调，多重选择的色红效果，轻轻刷上即用健康的红润肌肤，专业上从自然到明亮色调，多重选择的色红效果，轻轻刷上即用健康的红润肌肤，专业上从自然到明亮色调，多重选择的色红效果，轻轻刷上即用健康的红润肌肤，专业上从自然到明亮色调，多重选择的色红效果，轻轻刷上即用健康的红润肌肤，专业上从自然到明亮色调，多重选择的色红效果，轻轻刷上即用健康的红润肌肤，专业上",
+            "goodsName": "SK-II 超级牛X无敌大眼霜",
+            "goodsImg": "http://img1.imgtn.bdimg.com/it/u=3866329469,2703381540&fm=21&gp=0.jpg",
+            "prop": [
+                {
+                    "key": "香型",
+                    "value": "香水/淡香精"
+                },{
+                    "key": "容量",
+                    "value": "100ml"
+                },{
+                    "key": "功效",
+                    "value": "花香调，混合香调"
+                },{
+                    "key": "包装",
+                    "value": "香奈儿可可小姐香水 50ml*1"
+                },{
+                    "key": "产地",
+                    "value": "法国"
+                }
+            ],
+            "inventory": "充裕|少量|缺货",
+            "isReserve": "添加购物车按钮是否可用 0：可用，1不可用",
+            "isFavorite": "是否收藏 0:未收藏，1:已收藏",
+            "shareImage": "分享图片",
+            "shareText": "分享文字",
+            "shareHtml": "分享HTML",
+            "price_airport_dollar": "机上价格$",
+            "price_airport_rmb": "机上价格￥",
+            "price_app_dollar": "390",
+            "price_app_rmb": "app价格￥",
+            "price_ref_dollar": "1980",
+            "price_ref_rmb": "市场价￥",
+            "lTagModel": "标签模板图片（url）",
+            "lTagText": "标签文本",
+            "activeId": "活动Id",
+            "beginTime": "1449824216",
+            "endTime": "1449834216",
+            "activeName": "【6.5折活动中】",
+            "showPriceDesc": "是否显示价格描述信息  0:否  1:是",
+            "priceDesc": "价格描述信息",
+            "favoQty": "112",
+            "priceIndicator": [
+                {
+                    "minMoney": "最低金额",
+                    "maxMoney": "最高金额",
+                    "eBusiness": "电商名称"
+                }
+            ],
+            "coments": {
+                "starQty": "5",
+                "niceRate": "0.82",
+                "niceDesc": "好评率82%",
+                "sumQty": "128",
+                "cmtList": [
+                    {
+                        "icon": "http://img5.imgtn.bdimg.com/it/u=3505526057,2581420024&fm=21&gp=0.jpg",
+                        "name": "DEvvff",
+                        "content": "正品就是感觉好",
+                        "time": "1449808318"
+                    },{
+                        "icon": "http://img5.imgtn.bdimg.com/it/u=3303324487,3408048890&fm=21&gp=0.jpg",
+                        "name": "刘亦菲",
+                        "content": "哎呀，我是刘亦菲啊，这是什么鬼",
+                        "time": "144985318"
+                    },{
+                        "icon": "http://img5.imgtn.bdimg.com/it/u=3505526057,2581420024&fm=21&gp=0.jpg",
+                        "name": "KKW",
+                        "content": "粉嫩的腮红可轻松上装",
+                        "time": "1449718318"
+                    }
+                ]
+            }
+        }
+    }
+}

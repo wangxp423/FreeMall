@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <include layout="@layout/view_title_right_tv" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:visibility="gone"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/radius_solid_gray3">
+                <EditText
+                    android:id="@+id/verify_phone_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@null"
+                    android:hint="@string/phone_verify_hint"
+                    android:inputType="number"
+                    android:maxLength="11"
+                    android:minHeight="40dp"
+                    android:paddingLeft="5dp"
+                    android:singleLine="true"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:id="@+id/verify_phone_edit_clear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:src="@mipmap/edit_clear"
+                    android:visibility="invisible" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/radius_solid_gray3">
+                <EditText
+                    android:id="@+id/verify_password_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@null"
+                    android:hint="@string/find_password_authcode_hint"
+                    android:inputType="textPassword"
+                    android:maxLength="14"
+                    android:minHeight="34dp"
+                    android:paddingLeft="5dp"
+                    android:singleLine="true"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/verify_auto_password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/radius_right_solid_purple"
+                    android:drawablePadding="5dp"
+                    android:drawableRight="@mipmap/arrow_right_white"
+                    android:padding="5dp"
+                    android:textSize="12sp"
+                    android:text="@string/get_auto_password"
+                    android:textColor="@color/white" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:id="@+id/register_verify_success_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="@string/welcome_to_us"
+                android:textSize="16sp"
+                android:textColor="@color/purple"
+                android:drawableRight="@mipmap/loading_img1"
+                android:drawablePadding="10dp"/>
+            <EditText
+                android:id="@+id/register_set_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/radius_solid_gray3"
+                android:hint="@string/set_passwrod_title"
+                android:minHeight="34dp"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="20dp"
+                android:singleLine="true"
+                android:textSize="12sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="50dp"
+                android:text="@string/register_invitation"
+                android:textColor="@color/purple1"
+                android:textSize="12sp" />
+            <EditText
+                android:id="@+id/register_invitation_code_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/radius_solid_gray3"
+                android:hint="@string/register_invitation_code_hint"
+                android:minHeight="34dp"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:singleLine="true"
+                android:textSize="12sp" />
+            <LinearLayout
+                android:id="@+id/register_invitation_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/register_invitation_code"
+                    android:textColor="@color/gray_text"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:layout_width="85dp"
+                    android:layout_height="1dp"
+                    android:background="@color/gray_line" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="135dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:background="@color/gray_bg"/>
+        <TextView
+            android:id="@+id/verify_phone_done"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="0"
+            android:background="@drawable/circle_btn_pressed_selector"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:text="@string/find_password_done"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            android:background="@color/gray_bg"/>
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>

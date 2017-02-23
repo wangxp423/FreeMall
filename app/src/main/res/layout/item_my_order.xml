@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:minHeight="100dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#F2F2F2"
+        android:gravity="center_vertical"
+        android:minHeight="40dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/item_order_list_top_line"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/purple" />
+
+            <ImageView
+                android:id="@+id/item_order_list_time_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/order_list_time_normal" />
+
+            <ImageView
+                android:id="@+id/item_order_list_bottom_line"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/purple" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/order_detail_airport_date"
+            android:textColor="@color/black_text"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/item_order_list_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="2015年04月02日"
+            android:textColor="@color/black_text"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:minHeight="40dp">
+
+        <TextView
+            android:id="@+id/item_order_list_flight_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="CA1515"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/order_list_airport_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/order_list_airport_startcity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="北京"
+                android:textColor="@color/black_text"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:src="@mipmap/airport_plane_purple" />
+
+            <TextView
+                android:id="@+id/order_list_airport_endcity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="拉斯维加斯"
+                android:textColor="@color/black_text"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_line1" />
+
+    <com.aero.droid.dutyfree.talent.widgets.menulistview.SwipeMenuListView
+        android:id="@+id/order_list_order_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:divider="@null"
+        android:listSelector="@drawable/listview_background_selector"
+        android:scrollbars="none">
+
+    </com.aero.droid.dutyfree.talent.widgets.menulistview.SwipeMenuListView>
+
+</LinearLayout>

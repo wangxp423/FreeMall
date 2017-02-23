@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_title_right_tv" />
+
+    <com.ybao.pullrefreshview.layout.RGPullRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/message_list_pull_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.ybao.pullrefreshview.view.PullableListView
+            android:id="@+id/message_list_lv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:listSelector="@color/gray_bg"
+            android:scrollbars="none"/>
+    </com.ybao.pullrefreshview.layout.RGPullRefreshLayout>
+</LinearLayout>

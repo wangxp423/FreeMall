@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_gray_bg"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_title_right_tv" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/feed_back2_setting"
+            android:textSize="14sp" />
+
+        <RadioGroup
+            android:id="@+id/feed_back_radiogroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/feed_back_radio1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/fen_1_feed_back_selector"
+                android:gravity="center"
+                android:text="@string/fen_1_feed_back"
+                android:textColor="@color/feed_back_text_seletor"
+                android:textSize="10sp" />
+
+            <RadioButton
+                android:id="@+id/feed_back_radio2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/fen_2_feed_back_selector"
+                android:gravity="center"
+                android:text="@string/fen_2_feed_back"
+                android:textColor="@color/feed_back_text_seletor"
+                android:textSize="10sp" />
+
+            <RadioButton
+                android:id="@+id/feed_back_radio3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/fen_3_feed_back_selector"
+                android:gravity="center"
+                android:text="@string/fen_3_feed_back"
+                android:textColor="@color/feed_back_text_seletor"
+                android:textSize="10sp" />
+
+            <RadioButton
+                android:id="@+id/feed_back_radio4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/fen_4_feed_back_selector"
+                android:gravity="center"
+                android:text="@string/fen_4_feed_back"
+                android:textColor="@color/feed_back_text_seletor"
+                android:textSize="10sp" />
+
+            <RadioButton
+                android:id="@+id/feed_back_radio5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:checked="true"
+                android:drawableTop="@drawable/fen_5_feed_back_selector"
+                android:gravity="center"
+                android:text="@string/fen_5_feed_back"
+                android:textColor="@color/feed_back_text_seletor"
+                android:textSize="10sp" />
+
+        </RadioGroup>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/leave_message_feed_back"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+            <EditText
+                android:id="@+id/feed_back_edit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="6dp"
+                android:background="@mipmap/leave_msg_bg_fb"
+                android:gravity="top"
+                android:maxLength="200"
+                android:paddingBottom="25dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="15dp"
+                android:textColor="#ff4d4d4d"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/feed_back_length"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="10dp"
+                android:textSize="10sp"
+                android:text="0/200" />
+        </RelativeLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <GridView
+                android:id="@+id/feed_back_gv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:horizontalSpacing="10dp"
+                android:numColumns="3"
+                android:scrollbars="none"
+                android:listSelector="@drawable/listview_background_selector"></GridView>
+
+            <LinearLayout
+                android:id="@+id/feed_back_add_imgs_title_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bug截图发给程序员哥哥"
+                    android:textColor="@color/gray_text"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="最多可以添加3张图片哦~"
+                    android:textColor="@color/gray_text"
+                    android:textSize="10sp" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/title_2_fb" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="您的反馈很重要，我们将高度重视！"
+            android:textColor="#f999"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+</LinearLayout>

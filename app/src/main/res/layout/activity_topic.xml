@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_title_right_img" />
+
+    <com.ybao.pullrefreshview.layout.RGPullRefreshLayout
+        android:id="@+id/topic_pull_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<!--        <com.aero.droid.dutyfree.talent.widgets.ExpandFooterView
+            android:id="@+id/topic_footer_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></com.aero.droid.dutyfree.talent.widgets.ExpandFooterView>
+
+        <com.aero.droid.dutyfree.talent.widgets.ExpandHeaderView
+            android:id="@+id/topic_header_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></com.aero.droid.dutyfree.talent.widgets.ExpandHeaderView>-->
+
+        <com.ybao.pullrefreshview.view.PullableListView
+            android:id="@+id/topic_goods_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:divider="@null"
+            android:listSelector="@color/white"
+            ></com.ybao.pullrefreshview.view.PullableListView>
+    </com.ybao.pullrefreshview.layout.RGPullRefreshLayout>
+</LinearLayout>

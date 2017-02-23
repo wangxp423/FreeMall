@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <com.aero.droid.dutyfree.talent.widgets.wheel.WheelView
+        android:id="@+id/date_month"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3" />
+
+    <com.aero.droid.dutyfree.talent.widgets.wheel.WheelView
+        android:id="@+id/date_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4" />
+
+    <com.aero.droid.dutyfree.talent.widgets.wheel.WheelView
+        android:id="@+id/date_year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4" />
+
+</LinearLayout>

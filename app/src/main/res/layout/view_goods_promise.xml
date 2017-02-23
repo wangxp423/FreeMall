@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/goods_promise_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@mipmap/goods_promise_title_bg"
+        android:gravity="center"
+        android:text="@string/goods_promise_title"
+        android:textColor="@color/black_text"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/goods_promise_zheng"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:drawableTop="@mipmap/goods_promise_zheng"
+            android:gravity="center"
+            android:text="@string/goods_promise_zheng"
+            android:textColor="@color/black_text"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/goods_promise_renzheng"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:drawableTop="@mipmap/goods_promise_renzheng"
+            android:gravity="center"
+            android:text="@string/goods_promise_renzheng"
+            android:textColor="@color/black_text"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/goods_promise_tranport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:drawableTop="@mipmap/goods_promise_tranport"
+            android:gravity="center"
+            android:text="@string/goods_promise_tranport"
+            android:textColor="@color/black_text"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/goods_promise_pay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:drawableTop="@mipmap/goods_promise_pay"
+            android:gravity="center"
+            android:text="@string/goods_promise_pay"
+            android:textColor="@color/black_text"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+</LinearLayout>

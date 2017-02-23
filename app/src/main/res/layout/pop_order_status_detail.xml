@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:id="@+id/pop_order_status_layout"
+        android:layout_width="260dp"
+        android:layout_height="305dp"
+        android:background="@mipmap/order_detail_status_detail_bg">
+
+        <TextView
+            android:id="@+id/pop_order_status_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:minHeight="40dp"
+            android:padding="10dp"
+            android:text="@string/order_detail_status_detail_tv"
+            android:textColor="@color/black_text"
+            android:textSize="14sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/pop_order_status_title"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/order_detail_line_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="40dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <View
+                    android:id="@+id/pop_order_line_top"
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/purple" />
+
+                <View
+                    android:id="@+id/pop_order_line_bottom"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/gray_line" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/pop_order_detail_step1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/order_detail_step1_selector"
+                android:drawablePadding="10dp"
+                android:gravity="center"
+                android:text="@string/order_detail_step1"
+                android:textColor="@color/gray_text"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/pop_order_detail_step2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pop_order_detail_step1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="60dp"
+                android:drawableLeft="@drawable/order_detail_step2_selector"
+                android:drawablePadding="10dp"
+                android:gravity="center"
+                android:text="@string/order_detail_step2"
+                android:textColor="@color/gray_text"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/pop_order_detail_step3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pop_order_detail_step2"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="60dp"
+                android:drawableLeft="@drawable/order_detail_step3_selector"
+                android:drawablePadding="10dp"
+                android:gravity="center"
+                android:text="@string/order_detail_step3"
+                android:textColor="@color/gray_text"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/pop_order_detail_step1_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pop_order_detail_step1"
+                android:layout_marginLeft="65dp"
+                android:layout_marginRight="30dp"
+                android:text="您于2015年11月20日预定了CA116(11/23起飞)航班的免税品"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/pop_order_detail_step2_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pop_order_detail_step2"
+                android:layout_marginLeft="65dp"
+                android:layout_marginRight="30dp"
+                android:text="航班已抵达 正在配货中"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/pop_order_detail_step3_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pop_order_detail_step3"
+                android:layout_marginLeft="65dp"
+                android:layout_marginRight="30dp"
+                android:text="xxx已于2015年11月12日领取商品"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/pop_order_status_close_btn"
+        android:layout_toRightOf="@+id/pop_order_status_layout"
+        android:layout_marginLeft="-7dp"
+        android:layout_marginTop="-7dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/order_detail_close_pop" />
+</RelativeLayout>

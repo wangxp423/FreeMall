@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/gray_bg"
+        android:gravity="center"
+        android:minHeight="60dp"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/brand_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/brand_radio_a_g"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/brand_sort_selector"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:text="@string/brand_a_g"
+                android:textColor="@color/brand_sort_text_color"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/brand_radio_h_n"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/brand_sort_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/brand_h_n"
+                android:textColor="@color/brand_sort_text_color"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/brand_radio_o_t"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/brand_sort_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/brand_o_t"
+                android:textColor="@color/brand_sort_text_color"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/brand_radio_u_z"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/brand_sort_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/brand_u_z"
+                android:textColor="@color/brand_sort_text_color"
+                android:textSize="14sp" />
+
+        </RadioGroup>
+    </LinearLayout>
+    <com.ybao.pullrefreshview.layout.RGPullRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/brand_category_pull_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--<com.aero.droid.dutyfree.talent.widgets.ExpandHeaderView
+            android:id="@+id/brand_category_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></com.aero.droid.dutyfree.talent.widgets.ExpandHeaderView>
+
+        <com.aero.droid.dutyfree.talent.widgets.ExpandFooterView
+            android:id="@+id/brand_category_footer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></com.aero.droid.dutyfree.talent.widgets.ExpandFooterView>-->
+
+        <com.ybao.pullrefreshview.view.PullableGridView
+            android:id="@+id/brand_category_gv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:listSelector="@color/white"
+            android:horizontalSpacing="2dp"
+            android:verticalSpacing="2dp"
+            android:numColumns="3"
+            android:scrollbars="none" />
+    </com.ybao.pullrefreshview.layout.RGPullRefreshLayout>
+</LinearLayout>

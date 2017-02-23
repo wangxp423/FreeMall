@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ybao.pullrefreshview.layout.RGPullRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/handpick_loading_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg">
+
+    <com.aero.droid.dutyfree.talent.widgets.ExpandHeaderView
+        android:id="@+id/handpick_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.aero.droid.dutyfree.talent.widgets.ExpandHeaderView>
+
+    <!--<com.aero.droid.dutyfree.talent.widgets.ExpandFooterView
+        android:id="@+id/handpick_footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.aero.droid.dutyfree.talent.widgets.ExpandFooterView>-->
+
+    <com.ybao.pullrefreshview.view.PullableScrollView
+        android:id="@+id/handpick_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/handpick_scroll_goods"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/handpick_discount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:minHeight="60dp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/handpick_invite"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="0.5dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:minHeight="40dp"/>
+                    <ImageView
+                        android:id="@+id/handpick_vip"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0.5dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:minHeight="40dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <FrameLayout
+                android:id="@+id/handpick_other_goods"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></FrameLayout>
+        </LinearLayout>
+    </com.ybao.pullrefreshview.view.PullableScrollView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <RelativeLayout
+            android:id="@+id/handpick_title_layout"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="5dp"
+            android:layout_gravity="right|center_vertical"
+            android:background="@drawable/circle_solid_black">
+
+            <TextView
+                android:id="@+id/handpick_title_appname"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:gravity="center"
+                android:text="DUTY FREE"
+                android:visibility="gone"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/handpick_search"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="5dp"
+            android:layout_gravity="right|center_vertical"
+            android:scaleType="center"
+            android:src="@mipmap/title_search_pressed" />
+    </FrameLayout>
+
+</com.ybao.pullrefreshview.layout.RGPullRefreshLayout>

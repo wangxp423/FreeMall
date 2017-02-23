@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?><!--top10 item-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/item_discount_good_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/item_discount_good_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:padding="5dp"
+            android:ellipsize="end"
+            android:lines="2"
+            android:text="商品名称等"
+            android:textColor="@color/purple"
+            android:textSize="10sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="＄"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/item_discount_good_price1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2500"
+                    android:textColor="@color/red"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/item_discount_good_price2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/custom_red_line"
+                    android:text="2500"
+                    android:textColor="@color/black_text"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/item_discount_buy_bg"
+                android:layout_width="50dp"
+                android:layout_height="24dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/radius_stroke_purple_solid_white">
+
+                <TextView
+                    android:id="@+id/item_discount_buy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/buy_now"
+                    android:textColor="@color/purple"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/item_discount_good_lable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:scaleType="center"
+        android:src="@mipmap/discount_for_talent" />
+    <LinearLayout
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:background="@drawable/circle_stroke_white_solid_purple"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/item_discount_good_sale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="11"
+                android:textSize="9sp"/>
+            <TextView
+                android:id="@+id/item_discount_good_surplus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="/20"
+                android:textSize="9sp"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="@string/surplus_good"
+            android:textSize="9sp"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

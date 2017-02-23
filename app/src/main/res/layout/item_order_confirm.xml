@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:minHeight="100dp">
+
+    <FrameLayout
+        android:id="@+id/item_order_confrim_layout"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp">
+
+        <ImageView
+            android:id="@+id/iv_order_confirm_logo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="center" />
+
+        <ImageView
+            android:id="@+id/iv_order_confirm_tag"
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:layout_gravity="top|right"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_order_confirm_product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_toRightOf="@id/item_order_confrim_layout"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="asdasdasd"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:id="@+id/tv_order_confirm_money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_order_confirm_product"
+        android:layout_below="@id/tv_order_confirm_product"
+        android:layout_marginTop="15dp"
+        android:singleLine="true"
+        android:text="3232"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+
+    <TextView
+        android:id="@+id/tv_order_confirm_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/tv_order_confirm_money"
+        android:layout_marginRight="20dp"
+        android:text="X3"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="100dp"
+        android:background="@color/gray_line" />
+
+</RelativeLayout>

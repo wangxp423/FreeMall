@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/filter_category_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/filter_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="3dp"
+                android:paddingTop="5dp"
+                android:text="@string/goods_category"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/filter_category_line"
+                android:layout_width="60dp"
+                android:layout_height="2dp"
+                android:background="@color/menu_text_check"
+                android:visibility="visible" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/filter_brand_layout"
+            android:layout_toRightOf="@+id/filter_category_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/filter_brand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="3dp"
+                android:textColor="@color/black"
+                android:paddingTop="5dp"
+                android:text="@string/goods_brand"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/filter_brand_line"
+                android:layout_width="60dp"
+                android:layout_height="2dp"
+                android:visibility="invisible"
+                android:background="@color/menu_text_check" />
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/filter_search"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:scaleType="center"
+            android:src="@drawable/title_search_selector"/>
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/filter_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

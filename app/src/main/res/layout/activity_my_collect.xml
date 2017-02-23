@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <include layout="@layout/view_title_right_tv"/>
+    <com.ybao.pullrefreshview.layout.RGPullRefreshLayout
+        android:id="@+id/my_collect_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.ybao.pullrefreshview.view.PullableGridView
+            android:id="@+id/my_collect_gv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:horizontalSpacing="10dp"
+            android:listSelector="@color/white"
+            android:numColumns="3"
+            android:scrollbars="none"
+            android:verticalSpacing="10dp"></com.ybao.pullrefreshview.view.PullableGridView>
+        <ImageView
+            android:id="@+id/my_collect_no_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:src="@mipmap/collect_no_data"/>
+    </com.ybao.pullrefreshview.layout.RGPullRefreshLayout>
+
+</LinearLayout>

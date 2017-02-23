@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_title_right_tv" />
+
+    <com.ybao.pullrefreshview.layout.RGPullRefreshLayout
+        android:id="@+id/order_detail_pull_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.ybao.pullrefreshview.view.PullableScrollView
+            android:id="@+id/order_detail_scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:minHeight="45dp">
+
+                        <TextView
+                            android:id="@+id/order_detail_order_num"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="订单号123456789"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/order_detail_order_total_price"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="5dp"
+                            android:drawablePadding="5dp"
+                            android:drawableRight="@mipmap/arrow_right_black"
+                            android:padding="5dp"
+                            android:text="＄2614"
+                            android:textColor="@color/purple"
+                            android:textSize="16sp" />
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/gray_line" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/order_detail_line_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="25dp"
+                            android:orientation="horizontal">
+
+                            <View
+                                android:id="@+id/order_detail_line_left"
+                                android:layout_width="match_parent"
+                                android:layout_height="2dp"
+                                android:layout_weight="1"
+                                android:background="@color/gray_line" />
+
+                            <View
+                                android:id="@+id/order_detail_line_right"
+                                android:layout_width="match_parent"
+                                android:layout_height="2dp"
+                                android:layout_weight="1"
+                                android:background="@color/gray_line" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/order_detail_step1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="20dp"
+                            android:drawablePadding="10dp"
+                            android:drawableTop="@drawable/order_detail_step1_selector"
+                            android:gravity="center"
+                            android:text="@string/order_detail_step1"
+                            android:textColor="@color/black_text"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/order_detail_step2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:drawablePadding="10dp"
+                            android:drawableTop="@mipmap/order_detail_step2_pressed"
+                            android:gravity="center"
+                            android:text="@string/order_detail_step2"
+                            android:textColor="@color/black_text"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/order_detail_step3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="20dp"
+                            android:drawablePadding="10dp"
+                            android:drawableTop="@mipmap/order_detail_step3_pressed"
+                            android:gravity="center"
+                            android:text="@string/order_detail_step3"
+                            android:textColor="@color/black_text"
+                            android:textSize="14sp" />
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/gray_line" />
+
+
+                    <TextView
+                        android:id="@+id/order_detail_airport_info"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:drawablePadding="5dp"
+                        android:drawableRight="@mipmap/arrow_right_black"
+                        android:padding="10dp"
+                        android:text="＄2614＄2614"
+                        android:textColor="@color/purple"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <com.aero.droid.dutyfree.talent.widgets.ListViewForScrollView
+                    android:id="@+id/order_detail_goods_listview"
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:divider="@null"
+                    android:listSelector="@drawable/listview_background_selector"
+                    android:scrollbars="none"></com.aero.droid.dutyfree.talent.widgets.ListViewForScrollView>
+
+                <TextView
+                    android:id="@+id/order_detail_coments_notify"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:padding="10dp"
+                    android:text="@string/order_detail_coments_notify"
+                    android:textColor="@color/gray_text"
+                    android:textSize="14sp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/white"
+                    android:minHeight="60dp">
+
+                    <TextView
+                        android:id="@+id/order_detail_airport"
+                        android:minWidth="70dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="@string/order_detail_airport"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/order_detail_airport_date_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/order_detail_airport"
+                        android:padding="10dp"
+                        android:text="@string/order_detail_airport_date"
+                        android:textColor="@color/gray_text"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/order_detail_airport_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/order_detail_airport_date_tv"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:text="2015年04月02日"
+                        android:textColor="@color/gray_text"
+                        android:textSize="12sp" />
+
+                    <LinearLayout
+                        android:id="@+id/order_detail_airport_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/order_detail_airport_date_tv"
+                        android:layout_below="@+id/order_detail_airport_date_tv"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/order_detail_airport_startcity"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/order_detail_airport"
+                            android:padding="10dp"
+                            android:text="北京"
+                            android:textColor="@color/gray_text"
+                            android:textSize="12sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:src="@mipmap/airport_plane_purple" />
+
+                        <TextView
+                            android:id="@+id/order_detail_airport_endcity"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/order_detail_airport"
+                            android:padding="10dp"
+                            android:text="拉斯维加斯"
+                            android:textColor="@color/gray_text"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/white"
+                    android:minHeight="60dp">
+
+                    <TextView
+                        android:id="@+id/order_detail_airport_user"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minWidth="70dp"
+                        android:padding="10dp"
+                        android:text="@string/order_detail_user"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/order_detail_airport_name_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/order_detail_airport_user"
+                        android:padding="10dp"
+                        android:text="rani ll"
+                        android:textColor="@color/gray_text"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/order_detail_airport_phone_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/order_detail_airport_name_tv"
+                        android:layout_below="@+id/order_detail_airport_name_tv"
+                        android:padding="10dp"
+                        android:text="134345646"
+                        android:textColor="@color/gray_text"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+            </LinearLayout>
+        </com.ybao.pullrefreshview.view.PullableScrollView>
+    </com.ybao.pullrefreshview.layout.RGPullRefreshLayout>
+
+</LinearLayout>

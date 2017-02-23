@@ -1,0 +1,68 @@
+﻿{
+  "JSON": {
+    "message": "value",
+    "code": "value",
+    "mainBanner": [
+      {
+        "acType": "1",
+        "acParams": "H5",
+        "img": "http://p2.so.qhimg.com/bdr/_240_/t01e6178d6b7dc0734c.jpg",
+        "sno": "1"
+      },
+      {
+        "acType": "2",
+        "acParams": "活动ID",
+        "img": "http://p3.so.qhimg.com/bdr/_240_/t01834090162ea694f8.jpg",
+        "sno": "2"
+      },
+      {
+        "acType": "3",
+        "acParams": "商品ID",
+        "img": "http://p1.so.qhimg.com/bdr/_240_/t0130067761c81a29c1.jpg",
+        "sno": "3"
+      },
+      {
+        "acType": "41",
+        "acParams": "专区ID（可选，暂时预留）",
+        "img": "http://p3.so.qhimg.com/bdr/_240_/t010ca6934adea4b2dd.jpg",
+        "sno": "4"
+      },
+      {
+        "acType": "42",
+        "acParams": "动作参数42：暂无",
+        "img": "http://p0.so.qhimg.com/bdr/_240_/t01e2c96259699999c0.jpg",
+        "sno": "5"
+      },
+      {
+        "acType": "43",
+        "acParams": "动作参数43暂无",
+        "img": "http://p4.so.qhimg.com/bdr/_240_/t01ff0510667acfec09.jpg",
+        "sno": "6"
+      },
+      {
+        "acType": "44",
+        "acParams": "动作参数44：暂无",
+        "img": "http://p3.so.qhimg.com/bdr/_240_/t01e47e05989aa5836d.jpg",
+        "sno": "7"
+      },
+      {
+        "acType": "45",
+        "acParams": "动作参数45：分类ID（可选，暂时保留）",
+        "img": "http://p1.so.qhimg.com/bdr/_240_/t016b4e00ab91645511.jpg",
+        "sno": "8"
+      },
+      {
+        "acType": "46",
+        "acParams": "动作参数46：品牌ID",
+        "img": "http://p0.so.qhimg.com/bdr/_240_/t01456729776fc8d700.jpg",
+        "sno": "9"
+      },
+      {
+        "acType": "47",
+        "acParams": "动作参数47：消息ID（可选，暂时保留）",
+        "img": "http://p1.so.qhimg.com/bdr/_240_/t0104cd3deaad72f71b.jpg",
+        "sno": "10"
+      }
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.aero.droid.dutyfree.talent.widgets.WithInputLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/title_search_body_layout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:minHeight="45dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/title_search_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="2"
+            android:background="@color/white"
+            android:drawableLeft="@drawable/title_search_selector"
+            android:drawablePadding="10dp"
+            android:hint="@string/search"
+            android:maxLines="1"
+            android:minHeight="35dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/title_search_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="11"
+            android:gravity="center"
+            android:minHeight="55dp"
+            android:text="@string/ll_cancel"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_line"/>
+
+    <ListView
+        android:id="@+id/title_search_lv"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:headerDividersEnabled="false"
+        android:divider="@color/gray_line"
+        android:dividerHeight="1dp"
+        android:listSelector="@color/white"
+        android:scrollbars="none" />
+    <ImageView
+        android:id="@+id/title_search_empty"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:src="@mipmap/search_empty"/>
+
+</com.aero.droid.dutyfree.talent.widgets.WithInputLinearLayout>

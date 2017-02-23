@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><!--首页 活动商品列表-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <com.aero.droid.dutyfree.talent.widgets.ListViewForScrollView
+        android:id="@+id/view_active_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></com.aero.droid.dutyfree.talent.widgets.ListViewForScrollView>
+
+</LinearLayout>

@@ -1,0 +1,224 @@
+{
+  "JSON": {
+    "message": "value",
+    "code": "value",
+    "indexInfo": [
+      {
+        "sno": "3",
+        "type": "1",
+        "title": "特惠精选",
+        "isMore": "0",
+        "dataInfo": [
+          {
+            "goodsId": "1",
+            "goodsPrice": "199",
+            "goodsImg": "http://p4.so.qhimg.com/bdr/_240_/t01b9c4f0629d4e79b9.jpg",
+            "lTagModel": "",
+            "lTagText": "",
+            "rTagModel": "",
+            "rTagText": "",
+            "status": "0",
+            "beginTime": "1449677701",
+            "endTime": "1449687701",
+            "saleCount": "20",
+            "surStock": "11",
+            "discSepcName": "特惠精选"
+          },
+          {
+            "goodsId": "2",
+            "goodsPrice": "100",
+            "goodsImg": "http://p3.so.qhimg.com/bdr/_240_/t01960f7575d482e988.jpg",
+            "lTagModel": "",
+            "lTagText": "",
+            "rTagModel": "",
+            "rTagText": "",
+            "status": "1",
+            "beginTime": "1449677701",
+            "endTime": "1449687701",
+            "saleCount": "22",
+            "surStock": "7",
+            "discSepcName": "超低价"
+          },
+          {
+            "goodsId": "3",
+            "goodsPrice": "299",
+            "goodsImg": "http://p2.so.qhimg.com/bdr/_240_/t0146739242551b6c37.jpg",
+            "lTagModel": "",
+            "lTagText": "",
+            "rTagModel": "",
+            "rTagText": "",
+            "status": "0",
+            "beginTime": "1449672677",
+            "endTime": "1449683677",
+            "saleCount": "30",
+            "surStock": "11",
+            "discSepcName": "超值商品"
+          },
+          {
+            "goodsId": "4",
+            "goodsPrice": "399",
+            "goodsImg": "http://p4.so.qhimg.com/bdr/_240_/t01337667663c854be9.jpg",
+            "lTagModel": "",
+            "lTagText": "",
+            "rTagModel": "",
+            "rTagText": "",
+            "status": "1",
+            "beginTime": "1449683677",
+            "endTime": "1449693677",
+            "saleCount": "10",
+            "surStock": "1",
+            "discSepcName": "畅销单品"
+          }
+        ]
+      },
+      {
+        "sno": "1",
+        "type": "2",
+        "title": "畅销单品",
+        "isMore": "1",
+        "dataInfo": [
+          {
+            "goodsId": "1",
+            "goodsName": "雅诗兰黛白金黑钻奢华眼霜",
+            "price_ref_dollar": "市场价$",
+            "price_ref_rmb": "市场价￥",
+            "price_app_dollar": "500",
+            "price_app_rmb": "app￥",
+            "price_airport_dollar": "机场价格$",
+            "price_airport_rmb": "机场价格￥",
+            "goodsImg": "http://p0.so.qhimg.com/bdr/_240_/t01599c42ccedfb6e7f.jpg",
+            "favoQty": "36"
+          },
+          {
+            "goodsId": "1",
+            "goodsName": "SK-II神仙水 护肤精华150ml",
+            "price_ref_dollar": "市场价$",
+            "price_ref_rmb": "市场价￥",
+            "price_app_dollar": "500",
+            "price_app_rmb": "app￥",
+            "price_airport_dollar": "机场价格$",
+            "price_airport_rmb": "机场价格￥",
+            "goodsImg": "http://p4.so.qhimg.com/bdr/_240_/t010b530e443b35fad9.jpg",
+            "favoQty": "96"
+          },
+          {
+            "goodsId": "1",
+            "goodsName": "万宝龙传奇100毫升淡香水",
+            "price_ref_dollar": "市场价$",
+            "price_ref_rmb": "市场价￥",
+            "price_app_dollar": "700",
+            "price_app_rmb": "app￥",
+            "price_airport_dollar": "机场价格$",
+            "price_airport_rmb": "机场价格￥",
+            "goodsImg": "http://p3.so.qhimg.com/bdr/_240_/t012a8c0dd058673658.jpg",
+            "favoQty": "68"
+          },
+          {
+            "goodsId": "1",
+            "goodsName": "codo 家用空气净化机",
+            "price_ref_dollar": "市场价$",
+            "price_ref_rmb": "市场价￥",
+            "price_app_dollar": "499",
+            "price_app_rmb": "app￥",
+            "price_airport_dollar": "机场价格$",
+            "price_airport_rmb": "机场价格￥",
+            "goodsImg": "http://p2.so.qhimg.com/bdr/_240_/t01cbc38b24c1b2538c.png",
+            "favoQty": "36"
+          },
+          {
+            "goodsId": "1",
+            "goodsName": "CUCCI 古驰女士淡香水",
+            "price_ref_dollar": "市场价$",
+            "price_ref_rmb": "市场价￥",
+            "price_app_dollar": "200",
+            "price_app_rmb": "app￥",
+            "price_airport_dollar": "机场价格$",
+            "price_airport_rmb": "机场价格￥",
+            "goodsImg": "http://p0.so.qhimg.com/bdr/_240_/t01e7c1346c49da51b5.jpg",
+            "favoQty": "56"
+          }
+        ]
+      },
+      {
+        "sno": "2",
+        "type": "3",
+        "title": "护肤指望",
+        "isMore": "0",
+        "dataInfo": {
+          "activeId": "id",
+          "activeName": "活动名称",
+          "activeImg": "http://p1.so.qhimg.com/bdr/_240_/t0116bc6bef84c6bee6.jpg",
+          "outerLayout": "1",
+          "insideLayout": " 1",
+          "goodsList": [
+            {
+              "goodsId": "商品ID",
+              "activeId": "活动Id",
+              "goodsName": "植村秀",
+              "goodsImg": "http://p0.so.qhimg.com/bdr/_240_/t015c6523595b0612c5.jpg",
+              "markName": "品牌名称",
+              "markLogo": "品牌Logo",
+              "rTagText": "标签文本",
+              "rTagModel": "标签模板",
+              "lTagModel": "左标签图片地址",
+              "lTagText": "左标签文字",
+              "price_ref_dollar": "1120",
+              "price_ref_rmb": "市场价￥",
+              "price_app_dollar": "870",
+              "price_app_rmb": "app￥",
+              "price_airport_dollar": "机场价格$",
+              "price_airport_rmb": "机场价格￥"
+            },
+            {
+              "goodsId": "商品ID",
+              "activeId": "活动Id",
+              "goodsName": "雅诗兰黛眼霜",
+              "goodsImg": "http://p3.so.qhimg.com/bdr/_240_/t017e6b56b80a67875d.jpg",
+              "markName": "品牌名称",
+              "markLogo": "品牌Logo",
+              "rTagText": "标签文本",
+              "rTagModel": "标签模板",
+              "lTagModel": "左标签图片地址",
+              "lTagText": "左标签文字",
+              "price_ref_dollar": "450",
+              "price_ref_rmb": "市场价￥",
+              "price_app_dollar": "240",
+              "price_app_rmb": "app￥",
+              "price_airport_dollar": "机场价格$",
+              "price_airport_rmb": "机场价格￥"
+            }
+          ]
+        }
+      },
+      {
+        "sno": "4",
+        "type": "4",
+        "title": "精选发现",
+        "isMore": "0",
+        "dataInfo": {
+          "discId": "一级发现id",
+          "discName": "一级发现标题",
+          "discImg": "http://p3.so.qhimg.com/bdr/_240_/t01ca2e4c3d1613797d.jpg",
+          "outerLayout": "2",
+          "groupList": [
+            {
+              "groupId": "分组Id",
+              "groupName": "分组名称",
+              "groupImg": "http://p2.so.qhimg.com/bdr/_240_/t0161d77b1f8b2bfccc.jpg"
+            },
+            {
+              "groupId": "分组Id",
+              "groupName": "分组名称",
+              "groupImg": "http://p1.so.qhimg.com/bdr/_240_/t0109a16c34547e6806.jpg"
+            },
+            {
+              "groupId": "分组Id",
+              "groupName": "分组名称",
+              "groupImg": "http://p3.so.qhimg.com/bdr/_240_/t0116f97cbaeb077493.png"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

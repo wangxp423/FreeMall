@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/pop_order_price_layout"
+        android:layout_width="200dp"
+        android:layout_height="205dp"
+        android:background="@mipmap/order_detail_price_detail_bg">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="10dp"
+                android:text="@string/order_detail_price_detail_tv"
+                android:textColor="@color/black_text"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_horizontal"
+                android:minWidth="180dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/order_detail_total_price_tv"
+                    android:textColor="@color/black_text"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/pop_order_total_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:padding="10dp"
+                    android:text="＄2885"
+                    android:textColor="@color/red"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:minWidth="180dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/order_detail_coupons_price_tv"
+                    android:textColor="@color/black_text"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/pop_order_coupons_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:padding="10dp"
+                    android:text="-50"
+                    android:textColor="@color/green"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/order_detail_all"
+                    android:textColor="@color/red"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/pop_order_all"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="-50"
+                    android:textColor="@color/red"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/pop_order_close_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/pop_order_price_layout"
+        android:layout_marginLeft="-7dp"
+        android:layout_marginTop="-7dp"
+        android:src="@mipmap/order_detail_close_pop" />
+</RelativeLayout>

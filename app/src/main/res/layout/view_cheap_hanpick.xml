@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?> <!--特惠精选 首页横向滚动-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/cheap_handpick_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"></LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>

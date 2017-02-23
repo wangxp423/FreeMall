@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#000000</color>
+    <color name="black_text">#323232</color>
+    <color name="menu_text_check">#6939a4</color>
+    <color name="purple">#6939a4</color>
+    <color name="purple1">#8D69B9</color>
+    <color name="red">#FF3334</color>
+    <color name="green">#3AB54A</color>
+    <color name="orange">#FF7900</color>
+    <color name="yellow">#FFFF01</color>
+    <color name="orange_line">#FF7100</color>
+    <color name="white">#ffffff</color>
+    <color name="gray_bg">#F0F0F0</color>
+    <color name="gray_line">#E5E5E5</color>
+    <color name="gray_line1">#F1F1F1</color>
+    <color name="gray_text">#808080</color>
+    <color name="gray_text1">#969696</color>
+    <color name="gray_selected">#E7E7E7</color>
+    <color name="app_gray_bg">#fff3f2f1</color>
+    <!-- 暗灰色 -->
+    <color name="dimgrey">#E22F2F</color>
+    <!-- 天蓝色 -->
+    <color name="gray">#E84A40</color>
+
+
+    <!-- 价格背景颜色 -->
+    <color name="bg_color3">#f6f6f6</color>
+    <color name="bg_color2">#58a95d</color>
+    <color name="bg_color1">#ffffff</color>
+    <color name="price_color">#c89e5b</color>
+    <color name="text_color">#a3a2a2</color>
+    <color name="orange_start">#FFFBA0</color>
+    <color name="orange_end">#FE860E</color>
+    <color name="gray_start">#F6F6F6</color>
+    <color name="gray_end">#DBDBDB</color>
+
+    <integer-array name="gplus_colors">
+        <item>@color/gplus_color_1</item>
+        <item>@color/gplus_color_2</item>
+        <item>@color/gplus_color_3</item>
+        <item>@color/gplus_color_4</item>
+    </integer-array>
+    <color name="base_bg">#ffeeeeee</color>
+    <color name="base_msg_color">#ff999999</color>
+    <color name="gplus_color_1">#6939a4</color>
+    <color name="gplus_color_2">#f4b400</color>
+    <color name="gplus_color_3">#427fed</color>
+    <color name="gplus_color_4">#b23424</color>
+    <color name="feed_back_text_check">#6f389c</color>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/discount_bg">
+    <include
+        layout="@layout/view_title_right_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <com.ybao.pullrefreshview.layout.RGPullRefreshLayout
+        android:id="@+id/discount_pull_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.aero.droid.dutyfree.talent.widgets.ExpandHeaderView
+            android:id="@+id/discount_pull_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></com.aero.droid.dutyfree.talent.widgets.ExpandHeaderView>
+        <com.ybao.pullrefreshview.view.PullableListView
+            android:id="@+id/discount_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none"
+            android:divider="@null"
+            android:dividerHeight="20dp"
+            android:layout_marginBottom="20dp"
+            android:footerDividersEnabled="true"></com.ybao.pullrefreshview.view.PullableListView>
+    </com.ybao.pullrefreshview.layout.RGPullRefreshLayout>
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.ybao.pullrefreshview.layout.RGPullRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/goods_category_pull_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--<com.aero.droid.dutyfree.talent.widgets.ExpandHeaderView
+            android:id="@+id/goods_category_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></com.aero.droid.dutyfree.talent.widgets.ExpandHeaderView>
+
+        <com.aero.droid.dutyfree.talent.widgets.ExpandFooterView
+            android:id="@+id/goods_category_footer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></com.aero.droid.dutyfree.talent.widgets.ExpandFooterView>-->
+
+        <com.ybao.pullrefreshview.view.PullableGridView
+            android:id="@+id/goods_category_gv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:horizontalSpacing="2dp"
+            android:listSelector="@color/white"
+            android:numColumns="3"
+            android:scrollbars="none"
+            android:verticalSpacing="2dp" />
+    </com.ybao.pullrefreshview.layout.RGPullRefreshLayout>
+</LinearLayout>
+
+

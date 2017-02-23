@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/white">
+
+        <FrameLayout
+            android:id="@+id/title_frame_left"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:visibility="invisible">
+
+            <ImageView
+                android:id="@+id/title_left"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/title_back_selector"
+                android:scaleType="center" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/title_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/shopcar_title"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/title_right"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/delete"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <com.ybao.pullrefreshview.layout.PullRefreshLayout
+        android:id="@+id/shopbag_pull_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title_layout">
+
+        <com.ybao.pullrefreshview.view.PullableScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <com.aero.droid.dutyfree.talent.widgets.menulistview.SwipeMenuListView
+                    android:id="@+id/shopbag_lv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="50dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:headerDividersEnabled="false"
+                    android:listSelector="@drawable/listview_background_selector"></com.aero.droid.dutyfree.talent.widgets.menulistview.SwipeMenuListView>
+
+                <ImageView
+                    android:id="@+id/shopbag_no_data"
+                    android:layout_width="match_parent"
+                    android:paddingTop="20dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/shopbag_no_data"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+        </com.ybao.pullrefreshview.view.PullableScrollView>
+
+        <RelativeLayout
+            android:id="@+id/confrim_layout"
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:minHeight="45dp">
+
+            <TextView
+                android:id="@+id/shopbag_total_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="@string/shopbag_totol_text"
+                android:textColor="@color/purple"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/shopbag_total_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/shopbag_total_text"
+                android:text="＄1234"
+                android:textColor="@color/purple"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/shopbag_commit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/shopbag_total_price"
+                android:background="@drawable/btn_pressed_selector"
+                android:gravity="center"
+                android:minHeight="35dp"
+                android:text="@string/shopbag_commit"
+                android:textColor="@color/white"
+                android:textSize="14sp"/>
+        </RelativeLayout>
+        <LinearLayout
+            android:id="@+id/shopbag_recommend_layout"
+            android:layout_gravity="bottom"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"></LinearLayout>
+
+    </com.ybao.pullrefreshview.layout.PullRefreshLayout>
+
+
+</RelativeLayout>

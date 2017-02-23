@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_title_right_tv" />
+
+    <com.ybao.pullrefreshview.layout.RGPullRefreshLayout
+        android:id="@+id/my_order_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.ybao.pullrefreshview.view.PullableScrollView
+            android:id="@+id/my_order_scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/my_order_agreement_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FAF8D0"
+                    android:gravity="center_vertical"
+                    android:minHeight="30dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:drawableLeft="@mipmap/order_exception"
+                        android:drawablePadding="5dp"
+                        android:text="@string/order_detail_notify"
+                        android:textColor="@color/black_text"
+                        android:textSize="11sp" />
+                </LinearLayout>
+
+                <com.aero.droid.dutyfree.talent.widgets.ListViewForScrollView
+                    android:id="@+id/my_order_listview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:divider="@null"
+                    android:listSelector="@drawable/listview_background_selector"
+                    android:scrollbars="none"></com.aero.droid.dutyfree.talent.widgets.ListViewForScrollView>
+            </LinearLayout>
+        </com.ybao.pullrefreshview.view.PullableScrollView>
+    </com.ybao.pullrefreshview.layout.RGPullRefreshLayout>
+
+</LinearLayout>

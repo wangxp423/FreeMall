@@ -1,0 +1,450 @@
+<resources>
+    <string name="app_name">Coogo</string>
+    <!--首页底部菜单-->
+    <string name="menu_main">首页</string>
+    <string name="menu_circle">达人</string>
+    <string name="menu_msg">消息</string>
+    <string name="menu_my">我的</string>
+    <string name="menu_handpick">精选</string>
+    <string name="menu_category">分类</string>
+    <string name="menu_shopbag">购物袋</string>
+
+    <string name="title_name">机上免税2.0</string>
+    <string name="hot">热门推荐</string>
+    <string name="brand">品牌盛会</string>
+    <string name="man">男士特供</string>
+    <string name="women">女士特供</string>
+    <string name="focus">关注</string>
+    <string name="search">搜索</string>
+    <string name="search_content">惊喜多多,搜搜看</string>
+    <string name="search_empty">没有找到商品，试试输入别的信息</string>
+    <string name="share">分享</string>
+    <string name="discover">发现</string>
+    <string name="handpickBanner">精选</string>
+    <string name="like">喜欢</string>
+    <string name="predetemine">预定</string>
+    <string name="ll_cancel">取消</string>
+    <string name="ll_enter">确定</string>
+    <string name="dialog_hint">确定</string>
+    <string name="more">更多</string>
+    <string name="special_place">专场</string>
+    <string name="plan">计划</string>
+    <string name="delete">删除</string>
+    <string name="brand_from">来自品牌:</string>
+    <string name="loading_text">努力加载中...</string>
+    <string name="load_all">所有数据已经加载完毕</string>
+    <string name="use_help">使用须知</string>
+    <string name="quit_alert">再按一次退出程序</string>
+    <string name="request_error">网络连接异常请稍候再试</string>
+    <!-- 添加行程 -->
+    <string name="common_domestic">国内</string>
+    <string name="common_international">国际</string>
+    <string name="chose_start">选择出发</string>
+    <string name="chose_end">选择到达</string>
+    <string name="check_airport">航班查询</string>
+    <string name="add_airport">添加行程</string>
+    <string name="chose_airport">选择航班</string>
+    <string name="edit_airport">请输入航班号</string>
+    <string name="chose_date">请选择今天以后的日期</string>
+    <string name="no_airport">对不起,没有查到该航班的信息。</string>
+    <string name="please_chose_date">请选择日期</string>
+    <!-- 我的预定 -->
+    <string name="my_schedule">我的预定</string>
+    <string name="schedule_done">已完成</string>
+    <string name="schedule_ing">进行中</string>
+    <string name="schedule_order">订单号:</string>
+    <string name="schedule_you">您预订了</string>
+    <string name="schedule_product">航班的商品</string>
+    <string name="schedule_airport_cancel">航班取消</string>
+    <string name="schedule_remind">请先勾选您要删除的预定订单</string>
+    <string name="schedule_detail_you">您于</string>
+    <string name="schedule_detail_schedule">预订了</string>
+    <string name="schedule_detail_de">的</string>
+    <string name="schedule_detail_airport">航班的商品:</string>
+    <string name="schedule_detail_predater">预定</string>
+    <string name="schedule_detail_config">配货中</string>
+    <string name="schedule_detail_pick">提货</string>
+    <string name="schedule_start_time">起飞日期:</string>
+    <string name="schedule_detail_total_price">商品总额:</string>
+    <string name="schedule_detail_coupon_price">-优惠:</string>
+    <string name="schedule_detail_final_price">实付:</string>
+    <string name="my_order">我的订单</string>
+    <string name="my_wallet">我的钱包</string>
+    <string name="my_collect">我的收藏</string>
+    <string name="my_invite">邀请好友，一起来赚钱</string>
+    <string name="my_invite2">邀请1人奖励￥50</string>
+    <string name="my_welfare">福利</string>
+    <string name="my_feedback">意见反馈</string>
+    <string name="my_hotline">客服电话</string>
+    <string name="my_hotline_num">6296 6666</string>
+    <string name="my_help">帮助中心</string>
+    <!-- 价格波动框 -->
+    <string name="price_preferent">线上特惠</string>
+    <string name="price_online">线上价格</string>
+    <string name="price_airport">机上价格</string>
+    <string name="price_market">市价参考</string>
+    <string name="schedule_now">现在预定</string>
+    <!-- title -->
+    <string name="title_right_save">保存</string>
+    <string name="title_right_delete">删除</string>
+    <!-- 商品详情 -->
+    <string name="product_title">商品详情</string>
+    <string name="product_add_car">加入购物车</string>
+    <string name="product_buy_now">立即预定</string>
+    <string name="product_brand_desc">品牌介绍</string>
+    <string name="product_good_desc">商品介绍</string>
+    <string name="product_good_info">商品规格</string>
+    <string name="product_price">价格指向标</string>
+    <string name="product_buy_introduce">购买说明</string>
+    <string name="product_txt_introduce">本应用所提供之商品和服务全部由库拉索提供
+经中华人民共和国国务院特批的，正牌保证，品质无忧
+购买前请仔细阅读“购买须知”。
+&#x000D;库拉索全称是：库拉索外交供应有限公司（Diplomatic Supplies N.V.），成立于1994年，运营总部设于香港。是世界知名的机上免税品服务提供商。经中华人民共和国国务院特批，库拉索于1995年开始同中国国际航空公司合作开展经营国行机上免税业务。每年为逾三千万国际旅客提供优质的免税商品以及贴心的机上消费体验</string>
+    <string name="product_buy_flow">购买流程</string>
+    <string name="product_step1">立即预定或加入购物车</string>
+    <string name="product_step2">填好个人、航班信息</string>
+    <string name="product_step3">跟踪订单状态、查看以往订单</string>
+    <string name="product_step4">登机后完成支付(美金或多币种信用卡)、收取商品</string>
+    <string name="product_service">售后服务</string>
+    <string name="product_txt_service">如果您购买的免税品出现瑕疵：请您在购买商品之日起30日内，拨打售后服务热线。供货商将竭诚为您提供维修或更换服务。请保留好收据、商品的完整内外包装、配件、说明书、保修单等各种组件。因滥用、误用、意外或改装而导致损坏的情况不在售后服务范畴内；同时，化妆品、食品、研究等直接关系人体健康的商品，已经使用则不再享受对应的售后服务。
+&#x000A;&#x000A;&#x000D;售后服务热线:010-56936846。</string>
+    <!-- 购物车 -->
+    <string name="airport_info">请填写航班信息</string>
+    <string name="people_info">请填写乘机人信息</string>
+    <string name="people">乘机人信息</string>
+    <string name="people_name">请填写乘机人姓名</string>
+    <string name="people_phone">请填写乘机人手机号码</string>
+    <string name="must">*这是必填的哦</string>
+    <string name="airport_num_hint">请输入航班号</string>
+    <string name="airport_company">请选择航空公司</string>
+    <string name="add_shopcar_first">请先添加商品到购物袋</string>
+    <string name="shopcar_submit">提交订单</string>
+    <string name="submit">提交</string>
+    <string name="shopcar_title">购物袋</string>
+    <string name="add_shopcar">加入购物袋</string>
+    <string name="order_now">立即下单</string>
+    <string name="goods_more">点击查看更多</string>
+    <string name="shopcar_add_airline">添加行程</string>
+    <string name="shopcar_air_person">乘机人</string>
+    <string name="shopcar_must_wirte">*这是必填的哦</string>
+    <string name="disclaimer">用户协议</string>
+    <string name="customs_rules">购买须知</string>
+    <string name="check_disclaimer">请同意用户协议</string>
+    <string name="check_rules">请同意购买须知</string>
+    <string name="disclaimer_link">http://www.aerotq.com/dfg/userp.html</string>
+    <string name="rules_link">http://www.aerotq.com/dfg/purchnote.html</string>
+    <!-- 帐号信息 -->
+    <string name="account_me">我的账户</string>
+    <string name="account_phone">手机</string>
+    <string name="account_weixin">微信</string>
+    <string name="account_non_bound">未绑定</string>
+    <string name="account_name">您还没有登录呦~</string>
+    <string name="account_schdule">我的预定</string>
+    <string name="account_schdule_desc">看看都买了什么吧</string>
+    <string name="account_collect">我的收藏</string>
+    <string name="account_collect_desc">把喜欢的东西都收藏起来吧</string>
+    <string name="account_help">使用帮助</string>
+    <string name="account_help_desc">越来越熟悉了呦</string>
+    <string name="account_about">关于我们</string>
+    <string name="account_service">联系客服</string>
+    <string name="account_exit">退出登录</string>
+    <string name="account_about_desc">了解更多关于免税达人的信息</string>
+    <string name="account_coupons">我的优惠券</string>
+    <string name="coupons">优惠券</string>
+    <string name="goods_brand">品牌</string>
+    <string name="goods_category">分类</string>
+    <string name="couponse_can_use">可使用</string>
+    <string name="couponse_has_used">已使用</string>
+    <string name="couponse_has_expired">已过期</string>
+    <string name="delete_success">删除成功</string>
+    <string name="delete_fail">删除失败</string>
+    <string name="oauth_start">授权开始</string>
+    <string name="oauth_complete">授权完成</string>
+    <string name="oauth_fail">授权失败</string>
+    <string name="oauth_error">授权错误</string>
+    <string name="oauth_cancel">授权取消</string>
+    <string name="cancel_oauth_success">取消授权成功</string>
+    <string name="cancel_oauth_fail" translatable="false">取消授权失败</string>
+    <string name="login_not">您尚未登录</string>
+    <string name="login">登录</string>
+    <!-- 关于我们 -->
+    <string name="about_version">机上免税2.0</string>
+    <string name="about_desc">为您提供更新更快捷的免税品预定方式\n随时随地，手机预定，美好旅途第一步</string>
+    <string name="about_ping">小主,给个好评把！</string>
+    <string name="market_info">获取应用市场信息失败</string>
+    <!-- 分享 -->
+    <string name="share_weixin" translatable="false">分享至微信好友</string>
+    <string name="share_friends" translatable="false">分享至朋友圈</string>
+    <string name="share_sina" translatable="false">分享至新浪微博</string>
+    <string name="add_air_info">添加航班信息</string>
+    <string name="air_info1">是否修改信息</string>
+    <string name="app_name_test">DutyFreeTest</string>
+    <string name="brand_desc">国务院特批的供应商,品牌荟萃,100%正品保正!</string>
+    <string name="brand_title">名品荟萃,正品保障</string>
+    <string name="change_person_info">是否修改信息</string>
+    <string name="chose_delete_goods">请选择要删除的商品</string>
+    <string name="product_status">商品状态 :</string>
+    <string name="air_info2">晚了一步哦，此航班配货已经结束！</string>
+    <string name="product_info">商品信息</string>
+    <string name="title_activity_scale_anim_test">ScaleAnimTest</string>
+    <string name="title_activity_subject">SubjectActivity</string>
+    <string name="share_success">分享成功</string>
+    <string name="share_fail">分享失败</string>
+    <string name="title_activity_contact">ContactActivity</string>
+    <string name="full_minus">以下商品购满金额,即可享受满减</string>
+    <!--优惠券-->
+    <string name="choice_coupon">请选择优惠券</string>
+    <string name="price_totle">合计:</string>
+    <string name="price_coupon">(优惠扣减)</string>
+    <string name="no_coupon">不使用优惠券</string>
+    <string name="coupons_unused">未使用</string>
+    <string name="coupons_used">已使用</string>
+    <string name="coupons_outdate">已过期</string>
+    <!-- Time Format -->
+    <string name="time_format_full">时间：yyyy年MM月dd日  HH:mm</string>
+    <string name="time_format_year">yyyy/MM/dd</string>
+    <string name="time_format_month">MM月dd日</string>
+    <string name="time_format_date">MM月dd日</string>
+    <string name="time_format_pre_day">前天HH:mm</string>
+    <string name="time_format_yesterday">昨天HH:mm</string>
+    <string name="time_format_today">今天HH:mm</string>
+    <!--砍价活动-->
+    <string name="bargain">找人砍价</string>
+    <string name="is_buy">您已购买此商品</string>
+    <string name="bargain_fail">发起砍价失败,请重新发起</string>
+
+    <!--登录/空乘认证/空乘验证-->
+    <string name="login_app_desc">飞买BOOK</string>
+    <string name="login_account_hint">请输入工号/手机号</string>
+    <string name="login_phone_hint">请输入手机号</string>
+    <string name="login_password_hint">请输入密码</string>
+    <string name="login_account_error">手机号码输入错误</string>
+    <string name="login_password_error">密码输入错误</string>
+    <string name="login_forget_password">忘记密码</string>
+    <string name="login_login">登录</string>
+    <string name="login_success">登录成功</string>
+    <string name="login_register">注册</string>
+    <string name="register_now">立即注册</string>
+    <string name="login_other">使用其他方式登录</string>
+    <string name="login_copyright">Copyright©2004-2015 AERO-COM Inc.</string>
+    <string name="register_authcode_error">激活码输入错误,请重新输入</string>
+    <string name="register_authcode_hint">请输入激活码</string>
+    <string name="register_account_hint">填写中国大陆手机号,其他用户不可见</string>
+    <string name="register_password_hint">6-14位,建议数字、字母、符号组合</string>
+    <string name="register_get_authcode">发送激活码</string>
+    <string name="register_get_authcode_null">请先获取激活码</string>
+    <string name="password_min_length">密码长度小于六位</string>
+    <string name="register_agreement_title">用户注册协议</string>
+    <string name="register_agreement_error">*您必须接受我们的协议才能使用我们的服务</string>
+    <string name="set_passwrod_account">我的帐号:</string>
+    <string name="set_passwrod">输入新密码</string>
+    <string name="set_passwrod_title">设置密码</string>
+    <string name="set_passwrod_done">确定</string>
+    <string name="set_passwrod_null">请输入密码</string>
+    <string name="set_passwrod_again">重复密码</string>
+    <string name="set_passwrod_again_error">两次输入的密码不一致,请重新输入</string>
+    <string name="find_password_done">完成</string>
+    <string name="change_password_title">修改密码</string>
+    <string name="find_password_authcode_hint">请输入验证码</string>
+    <string name="find_password_get_authcode_null">请先获取激活码</string>
+    <string name="find_password_get_authcode">获取验证码</string>
+    <string name="find_password_authcode_error">验证码输入错误,请重新输入</string>
+    <string name="find_password_account_hint">填写中国大陆手机号码</string>
+    <string name="find_password_password_remind">建议使用6-20个字符，字母和数字组合更安全！</string>
+    <string name="bound_remind">为了保障您的帐号安全和服务,请绑定手机号码</string>
+    <string name="bound_phone">手机号码:</string>
+    <string name="bound_phone_title">绑定手机号</string>
+    <string name="bound_weixin_merge">该微信号已绑定过其他帐号,是否合并数据</string>
+    <string name="bound_phone_merge">该手机号已绑定过其他帐号,是否合并数据</string>
+    <string name="bound_phone_first">您必须先绑定手机后才能进行该操作</string>
+    <string name="get_auto_password">获取动态密码</string>
+    <string name="phone_verify">手机验证</string>
+    <string name="phone_verify_hint">请输入手机号</string>
+    <string name="phone_phone_error">手机号码输入有误</string>
+    <string name="register_airport_company">所属航空公司</string>
+    <string name="register_choise">选择</string>
+    <string name="register_work_num_hint">工号</string>
+    <string name="register_work_num_notify">请输入工号</string>
+    <string name="register_name">姓名</string>
+    <string name="register_name_notify">请输入姓名</string>
+    <string name="login_name_notify">请输入工号/手机号</string>
+    <string name="welcome_to_us">欢迎加入</string>
+    <string name="register_next_step">下一步</string>
+    <string name="register_agreement">注册代表并同意《Coogo用户协议》</string>
+    <string name="register_verify">验证</string>
+    <string name="register_invitation">如果您是受邀用户,请输入朋友发给您的邀请码</string>
+    <string name="register_invitation_code_hint">请输入邀请码</string>
+    <string name="register_invitation_code">什么是邀请码？</string>
+    <string name="register_user_verify">空乘认证</string>
+    <string name="weixin_login">微信登陆</string>
+
+    <!--品牌分类-->
+    <string name="brand_a_g">A ─ G</string>
+    <string name="brand_h_n">H ─ N</string>
+    <string name="brand_o_t">O ─ T</string>
+    <string name="brand_u_z">U ─ Z</string>
+    <!--Loading-->
+    <string name="common_loading_message">Loading...</string>
+    <string name="common_empty_msg">Oops, failed to resolve data\nPlease hit the screen and try again~</string>
+    <string name="common_error_msg">Oops, something wrong!\nPlease hit the screen and try again~</string>
+    <string name="common_no_network_msg">No network connected!\nPlease hit the screen and try again after connecting~</string>
+
+    <!--自定义对话框-->
+    <string name="sure_delete">确定删除吗？</string>
+    <string name="dialog_title_delete_shopbag">删除购物袋</string>
+    <!--活动 折扣-->
+    <string name="active_downtime_text">活动结束倒计时</string>
+    <string name="active_downtime_start">活动开始倒计时</string>
+    <string name="active_downtime_end">活动已结束</string>
+    <string name="buy_now">立即购买</string>
+    <string name="buy_first">立即抢购</string>
+    <string name="good_i_want">我想要</string>
+    <string name="best_selling_good">畅销单品</string>
+    <string name="see_more">查看更多</string>
+    <string name="surplus_good">剩余</string>
+    <string name="discount_check">已满足</string>
+    <string name="discount_uncheck">提升等级</string>
+    <string name="discount_area">折扣专区</string>
+    <string name="discount_instruction">说明</string>
+    <!--商品详情-->
+    <string name="goods_promise_title">免税达人承诺</string>
+    <string name="goods_promise_zheng">正品保证</string>
+    <string name="goods_promise_renzheng">国家认证</string>
+    <string name="goods_promise_tranport">专业配送</string>
+    <string name="goods_promise_pay">便捷支付</string>
+    <string name="goods_detail">详情</string>
+    <string name="goods_brand_desc">品牌介绍</string>
+    <string name="goods_good_desc">商品介绍</string>
+    <string name="goods_good_info">商品规格</string>
+    <string name="goods_price">价格指向标</string>
+    <string name="goods_status_1">商品状态:补货中</string>
+    <string name="goods_status_0">商品状态:预购中</string>
+    <string name="goods_add_shopbag">加入购物袋</string>
+    <string name="goods_recommend">大家还喜欢</string>
+    <string name="goods_same_brand">品牌其他商品</string>
+    <string name="goods_see_more">查看全部</string>
+    <!--评论-->
+    <string name="coments_goto">我也来说两句</string>
+    <string name="coments_detail">评论详情</string>
+    <string name="coments_fen">评分</string>
+    <string name="coments_coments">评论</string>
+    <string name="coments_commint">提交</string>
+    <string name="coments_commint_forgive">放弃编辑？</string>
+    <string name="coments_commint_null">请先编写评论信息</string>
+    <string name="coments_commint_remind">评论还没写完真的要放弃吗？</string>
+    <string name="coments_write_hint">长度在1-200个字之间\n写下购买体会或使用过程中带来的帮助等,可以为其他小伙伴提供更多参考~</string>
+    <!--特权任务-->
+    <string name="task_privilege">特权购物</string>
+    <string name="task_privilege_for">特权独享</string>
+    <string name="task_privilege_has">已领取</string>
+    <string name="task_privilege_unhas">立即领取</string>
+    <string name="task_privilege_how">如何获取</string>
+    <string name="task_privilege_notify">您暂不符合领取条件,请先完成任务!</string>
+    <string name="task_introduce">说明</string>
+    <string name="task_to_discount">快去折扣专区逛逛吧</string>
+    <!--购物袋-->
+    <string name="shopbag_totol_text">合计:</string>
+    <string name="shopbag_commit">去下单</string>
+    <!--订单确认-->
+    <string name="order_confirm">订单确认</string>
+    <string name="order_confrim_agreement">我已阅读并同意《用户购买须知》</string>
+    <string name="order_confirm_user">乘机人</string>
+    <string name="order_confirm_airport">添加行程</string>
+    <string name="order_confirm_name">姓名</string>
+    <string name="order_confirm_name_hint">请输入姓名</string>
+    <string name="order_confirm_phone">手机号</string>
+    <string name="order_confirm_phone_hint">请输入手机号</string>
+    <string name="order_confirm_phone_error">手机号码输入有误</string>
+    <string name="order_confirm_airport_num">航班号</string>
+    <string name="order_confirm_airport_num_hint">请输入航班号</string>
+    <string name="order_confrim_choise_airport">请选择航空公司</string>
+    <string name="order_confrim_get_airportlist_error">获取列表失败,请稍后再试</string>
+    <string name="order_confrim_choise">请选择</string>
+    <string name="order_confrim_ca">国航</string>
+    <string name="order_confirm_date">日期</string>
+    <string name="order_confirm_date_hint">请选择日期</string>
+    <string name="order_confirm_info">商品信息</string>
+    <string name="order_confirm_use_coupons">使用优惠券</string>
+    <string name="order_confrim_price_total">合计:</string>
+    <string name="order_confrim_price_coupon">优惠扣减</string>
+    <string name="order_confrim_commit">确定</string>
+    <string name="order_confirm_airport_check_success">您查询的航班可以正常预定</string>
+    <string name="order_confirm_airport_check_fail">对不起,您查询的航班现在不支持预定</string>
+    <!--查询航班-->
+    <string name="order_confrim_check_airport">查询航班</string>
+    <!--预订成功/订单列表-->
+    <string name="order_result_success">预订成功</string>
+    <string name="order_result_total">商品总价:</string>
+    <string name="order_result_coupons">优惠扣减:</string>
+    <string name="order_result_all">合计:</string>
+    <string name="order_result_to_home">去逛逛</string>
+    <string name="order_result_to_orderdetail">查看订单</string>
+    <string name="order_result">预定结果</string>
+    <string name="order_status_done">已完成</string>
+    <string name="order_status_ing">配送中</string>
+
+    <!--系统设置-->
+    <string name="title_setting">系统设置</string>
+    <string name="about_us_setting">关于我们</string>
+    <string name="version_check_setting">版本检测</string>
+    <string name="version_check2_setting">已是最新版本</string>
+    <string name="feed_back_setting">喜欢就给个5分吧</string>
+    <string name="feed_back2_setting">您对我们的应用还满意吗？</string>
+    <string name="clear_cache_setting">清理缓存</string>
+    <string name="attention_weixin_id_setting">关注我们的微信号</string>
+    <string name="services_agreement_setting">用户服务协议</string>
+    <string name="title_feed_back">反馈</string>
+    <string name="commit_feed_back">提交</string>
+    <string name="fen_1_feed_back">神马玩意儿</string>
+    <string name="fen_2_feed_back">让让~路过</string>
+    <string name="fen_3_feed_back">矮油，不错哦</string>
+    <string name="fen_4_feed_back">很满意</string>
+    <string name="fen_5_feed_back">严重支持</string>
+    <string name="leave_message_feed_back">再来说两句</string>
+    <string name="feedback_star_notify">请选择满意度</string>
+    <string name="feedback_content_notify">请输入反馈内容</string>
+    <!--个人信息-->
+    <string name="title_uf">个人信息</string>
+    <string name="weixin_bind">已绑定</string>
+    <string name="weixin_unbind">未绑定</string>
+    <string name="rename_nickname">昵称</string>
+    <string name="rename_nickname_save">保存</string>
+    <string name="rename_nickname_null">请输入昵称</string>
+    <string name="rename_nickname_error">昵称格式有误,请重新输入</string>
+    <string name="rename_nickname_desc">昵称不能超过10个汉子或20个英文字符,支持中英文,数字,下划线</string>
+    <!--帮助中心-->
+    <string name="title_help_center">帮助中心</string>
+    <!--消息列表-->
+    <string name="title_message">消息</string>
+    <!--订单详情-->
+    <string name="order_detail_coments_notify">您可以对这些商品进行评价、吐槽or称赞,无论什么,你都可以获得折扣特权哦！ </string>
+    <string name="order_detail_airport">行程</string>
+    <string name="order_detail_airport_date">起飞日期:</string>
+    <string name="order_detail_user">乘机人</string>
+    <string name="order_detail">订单详情</string>
+    <string name="order_detail_to_coments">评价</string>
+    <string name="order_detail_again_coments">追加评价</string>
+    <string name="order_detail_step1">下单</string>
+    <string name="order_detail_step2">配货</string>
+    <string name="order_detail_step3">完成</string>
+    <string name="order_detail_other_step1">审核中</string>
+    <string name="order_detail_other_step2">预定成功</string>
+    <string name="order_detail_other_step3">订单完成</string>
+    <string name="order_detail_price_detail_tv">订单价格明细</string>
+    <string name="order_detail_total_price_tv">商品总价:</string>
+    <string name="order_detail_coupons_price_tv">优惠扣减:</string>
+    <string name="order_detail_all">合计:</string>
+    <string name="order_detail_status_detail_tv">订单状态明细</string>
+    <string name="order_detail_no">订单号：</string>
+    <string name="order_detail_price">订单金额</string>
+    <string name="order_detail_notify">距离航班起飞48小时前可以修改或取消订单</string>
+    <!--提醒消息-->
+    <string name="msgcenter_title">消息</string>
+    <string name="notify_add_favo_success">已关注,将在活动开始前5分钟提示您。可以在“我的消息”中查看。</string>
+    <string name="notify_cancel_favo">已取消预约提醒,别忘了来抢哦！</string>
+    <!--我的-->
+    <string name="me_not_login">登陆有礼 ></string>
+    <string name="me_non_evaluation">待评价</string>
+    <string name="me_coupons">优惠券</string>
+    <string name="me_please_wait">暂未上线,敬请期待！</string>
+</resources>

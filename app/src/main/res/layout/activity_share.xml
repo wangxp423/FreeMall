@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white" 
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/share_title_left"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:scaleType="center"
+            android:src="@drawable/title_back_selector" />
+
+        <TextView
+            android:id="@+id/share_title_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/share"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/share_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/share_weixin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:drawableTop="@mipmap/share_weixin"
+            android:drawablePadding="20dp"
+            android:text="@string/share_weixin"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/share_friend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:drawablePadding="20dp"
+            android:drawableTop="@mipmap/share_friends"
+            android:text="@string/share_friends"
+            android:textSize="14sp" />
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/share_sina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:drawablePadding="20dp"
+            android:drawableTop="@mipmap/share_sina"
+            android:text="@string/share_sina"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>
